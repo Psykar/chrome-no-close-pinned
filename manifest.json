@@ -1,0 +1,23 @@
+{
+    "name": "No close pinned tabs",
+    "description": "Control + w will not closed pinned tabs (once you bind it)",
+    "version": "0.1",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
+    "commands": {
+        "close-non-pinned-tab": {
+            "suggested_key": {
+                "default": "Ctrl+W",
+                "mac": "Command+W"
+            },
+            "description": "Closes tab only if it's not pinned"
+        }
+    }
+}
