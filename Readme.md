@@ -1,3 +1,5 @@
+Note: deprecated by https://github.com/EtaoinWu/smart-ctrl-w
+
 The code here is licensed as per LICENSE.
 
 The icons are licensed separately.
